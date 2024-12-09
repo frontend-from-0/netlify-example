@@ -9,11 +9,11 @@
 <body>
   <!-- 
   Name attribute is required for Netlify to recognize the form fields.
-  The form must have the attribute data-netlify="true" to be recognized by Netlify.
+  The form must have the 'netlify' attribute to be recognized by Netlify.
   The form must have the attribute netlify-honeypot="bot-field" to prevent spam. This attribute is added together with the hidden input field.
   The action attribute must point to the success page (in this case, success.html).
   -->
-  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success.html">
+  <form name="contact" method="POST" netlify netlify-honeypot="bot-field" action="/success.html">
 
     <!-- Your other form fields -->
      <div class="input-group">
